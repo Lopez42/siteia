@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Meditly - Méditation Guidée</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="m-0 p-0">
+  <div class="relative w-full h-full bg-gradient-to-b from-emerald-50 via-white to-emerald-50">
+    <div class="absolute inset-0">
+      <div class="absolute -right-10 -top-10 w-64 h-64 bg-emerald-100 rounded-full blur-3xl opacity-70"></div>
+      <div class="absolute -left-16 bottom-10 w-72 h-72 bg-emerald-200 rounded-full blur-3xl opacity-60"></div>
+      <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,_#a7f3d0_0,_transparent_55%),_radial-gradient(circle_at_bottom,_#bbf7d0_0,_transparent_55%)] opacity-60"></div>
+    </div>
+
+    <div class="relative flex flex-col items-center justify-center h-full w-full px-4 py-6">
+      <div class="flex flex-col items-center">
+        <div class="flex items-center gap-2 mb-4">
+          <div class="w-10 h-10 rounded-2xl bg-white shadow-md flex items-center justify-center">
+            <div class="w-6 h-6 rounded-full bg-gradient-to-br from-emerald-400 to-emerald-500 flex items-center justify-center">
+              <span class="w-3 h-3 rounded-full bg-white/80"></span>
+            </div>
+          </div>
+          <span class="text-sm font-medium tracking-wide text-emerald-700">Meditly</span>
+        </div>
+
+        <div class="relative w-64 h-64 sm:w-72 sm:h-72 mb-6">
+          <div class="absolute inset-0 rounded-full bg-gradient-to-b from-emerald-100 via-white to-emerald-50 shadow-xl shadow-emerald-100/60"></div>
+
+          <div class="absolute -top-3 left-1/2 -translate-x-1/2 w-40 h-8 bg-white/80 backdrop-blur rounded-full border border-emerald-50 flex items-center justify-center gap-2 text-[10px] text-emerald-700 shadow-sm">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            <span>Session zen en cours</span>
+          </div>
+
+          <div class="absolute inset-6 rounded-[40%] bg-gradient-to-b from-emerald-200/60 via-emerald-50 to-emerald-100/70 overflow-hidden flex flex-col items-center justify-end pb-10">
+            <div class="absolute inset-x-6 bottom-16 h-24 bg-gradient-to-t from-emerald-200/90 via-emerald-100/40 to-transparent rounded-full blur-2xl"></div>
+
+            <div class="relative w-32 h-32 rounded-full bg-gradient-to-b from-emerald-50 to-emerald-100 shadow-md flex flex-col items-center justify-center">
+              <div class="absolute inset-x-8 -top-3 h-10 bg-gradient-to-b from-emerald-200/70 to-transparent rounded-full blur-md opacity-80"></div>
+
+              <div class="relative flex flex-col items-center">
+                <div class="w-16 h-16 rounded-full bg-gradient-to-b from-emerald-300 to-emerald-500 flex items-center justify-center">
+                  <div class="w-14 h-14 rounded-full bg-gradient-to-b from-emerald-50/90 to-emerald-100/80 flex items-center justify-center">
+                    <div class="w-10 h-10 rounded-full border-2 border-dashed border-emerald-300/80 flex items-center justify-center">
+                      <div class="w-6 h-6 rounded-full bg-emerald-400/90"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mt-4 flex flex-col items-center text-[9px] text-emerald-800/90">
+                  <div class="flex items-center gap-1">
+                    <div class="w-1.5 h-1.5 rounded-full bg-emerald-400"></div>
+                    <span>Respiration</span>
+                  </div>
+                  <div class="mt-1 flex gap-1">
+                    <span class="w-10 h-1 rounded-full bg-emerald-200"></span>
+                    <span class="w-6 h-1 rounded-full bg-emerald-300"></span>
+                    <span class="w-8 h-1 rounded-full bg-emerald-100"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="relative w-full px-6 mt-4">
+              <div class="flex items-end justify-between">
+                <div class="w-1.5 h-10 bg-gradient-to-t from-emerald-400 to-emerald-200 rounded-full"></div>
+                <div class="w-1.5 h-6 bg-gradient-to-t from-emerald-300 to-emerald-100 rounded-full"></div>
+                <div class="w-1.5 h-14 bg-gradient-to-t from-emerald-500 to-emerald-200 rounded-full"></div>
+                <div class="w-1.5 h-8 bg-gradient-to-t from-emerald-300 to-emerald-100 rounded-full"></div>
+                <div class="w-1.5 h-12 bg-gradient-to-t from-emerald-400 to-emerald-200 rounded-full"></div>
+                <div class="w-1.5 h-7 bg-gradient-to-t from-emerald-300 to-emerald-100 rounded-full"></div>
+                <div class="w-1.5 h-11 bg-gradient-to-t from-emerald-400 to-emerald-200 rounded-full"></div>
+              </div>
+              <div class="mt-4 flex justify-center">
+                <div class="w-20 h-4 bg-white/80 border border-emerald-50 rounded-full flex items-center px-1 gap-1 shadow-sm">
+                  <div class="w-2 h-2 rounded-full bg-emerald-400"></div>
+                  <div class="flex-1 h-1 rounded-full bg-emerald-100 overflow-hidden">
+                    <div class="w-1/2 h-full bg-emerald-300"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="absolute -bottom-1 inset-x-10 h-6 bg-emerald-900/5 blur-md rounded-full"></div>
+        </div>
+
+        <div class="flex flex-col items-center text-center max-w-xs">
+          <span class="text-[10px] uppercase tracking-[0.25em] text-emerald-500 mb-1">Pause intérieure</span>
+          <h1 class="text-lg font-semibold text-emerald-900 mb-1">Respirez, relâchez, recentrez-vous</h1>
+          <p class="text-[11px] text-emerald-700/80">Une bulle de calme dans votre journée. Guidée par la douceur, pensée pour votre esprit.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
