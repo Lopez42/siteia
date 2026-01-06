@@ -1,0 +1,26 @@
+<svg width="140" height="44" viewBox="0 0 140 44" xmlns="http://www.w3.org/2000/svg" class="h-11 w-auto">
+  <defs>
+    <linearGradient id="appstore-badge-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="50%" stop-color="#16a34a"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" rx="10" ry="10" width="139" height="43" fill="url(#appstore-badge-bg)"/>
+  <rect x="1" y="1" rx="9.5" ry="9.5" width="138" height="42" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="0.75"/>
+  <g transform="translate(10,9)">
+    <rect x="0" y="0" width="26" height="26" rx="7" fill="rgba(255,255,255,0.12)"/>
+    <g transform="translate(6,4)">
+      <path d="M8.17 0.5c.73-.85 1.93-1.45 2.98-1.5.13 1.14-.34 2.3-1.03 3.12-.68.83-1.8 1.47-2.91 1.38-.15-1.1.4-2.26 1-3z" fill="#f9fafb"/>
+      <path d="M13.37 11.22c-.61-1.05-.89-1.52-1.65-2.43-.95-1.12-2.2-1.77-3.44-1.77-1.3 0-1.83.68-3.03.68-1.24 0-1.9-.68-3.09-.68-1.24 0-2.55.75-3.5 2.03-1.21 1.66-1 4.79.96 7.35.7.96 1.64 2.04 2.84 2.05 1.12.01 1.43-.66 2.89-.67 1.45-.01 1.73.67 2.86.66 1.2 0 2.18-1.19 2.87-2.15.5-.71.69-1.07 1.08-1.88-1.16-.44-1.93-1.56-1.96-2.98z" fill="#f9fafb"/>
+    </g>
+    <g transform="translate(34,2)" fill="#ecfdf5">
+      <text x="0" y="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="8" font-weight="400" letter-spacing=".04em">
+        Disponible sur
+      </text>
+      <text x="0" y="21" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="14" font-weight="600" letter-spacing=".03em">
+        App Store
+      </text>
+    </g>
+  </g>
+</svg>
